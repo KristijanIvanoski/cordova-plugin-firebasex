@@ -149,10 +149,10 @@ static NSMutableDictionary* traces;
 }
 
 // @override abstract
-- (void)handleOpenURL:(NSNotification*)notification{
-    NSURL* url = [notification object];
-    [GIDSignIn.sharedInstance handleURL:url];
-}
+// - (void)handleOpenURL:(NSNotification*)notification{
+//     NSURL* url = [notification object];
+//     [GIDSignIn.sharedInstance handleURL:url];
+// }
 
 /*************************************************/
 #pragma mark - plugin API
